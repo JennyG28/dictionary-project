@@ -12,7 +12,7 @@ setResults(response.data[0]);
 }
 
 function search(event){
-  event.preventDefaul();
+  event.preventDefault();
  
   //documentation: https://dictionaryapi.dev/
 
