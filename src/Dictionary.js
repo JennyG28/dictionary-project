@@ -28,12 +28,22 @@ function handleKeywordChange(event){
  // <Results results={results}/> : component name , property name, value
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange}/>
-      </form>
       
+      <form onSubmit={search} className="row g-2">
+         <div className="col-8">
+        <input type="search" className="field" onChange={handleKeywordChange} placeholder="Search word..."/>
+        </div>
+      <div className="col-4">
+              <input
+                type="submit"
+                value="🔍"
+                className="btn btn-outline-light mb-2"
+              />
+            </div>
+      </form>
+      <br />
       <Results results={results}/>
-     
+    
     </div>
   );
 }

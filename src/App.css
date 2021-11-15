@@ -1,3 +1,27 @@
+body {
+  background: #e5d2ac;
+}
+
 header {
-  margin: center;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  margin: 20px 0 80px 0;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+  font-size: 17px;
 }
