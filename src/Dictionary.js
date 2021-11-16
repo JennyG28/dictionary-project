@@ -41,6 +41,7 @@ function handleKeywordChange(event){
               />
             </div>
       </form>
+      
       <br />
       <Results results={results}/>
     
