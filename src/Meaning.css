@@ -5,4 +5,9 @@ h4 {
 
 p {
   margin-left: 50px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.Meaning definition {
+  font-family: "Roboto Mono", monospace;
 }

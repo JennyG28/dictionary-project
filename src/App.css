@@ -1,30 +1,41 @@
-body {
-  background: white;
-}
-
 .App-logo {
-  max-width: 200px;
-  position: relative;
-
+  max-width: 450px;
   margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 25px;
 }
 
-container {
-  background-color: blue;
+body {
+  background-color: #daddfc;
 }
+.container {
+  max-width: 600px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 50%;
+  padding: 30px;
+  margin: 10px auto;
+}
+
 header {
   text-align: center;
-  font-size: 100px;
-  font-family: "Dancing Script", cursive;
-  margin: 20px 0 80px 0;
+  font-size: 80px;
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  margin-top: -70px;
 }
 
 footer {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 a {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   font-size: 15px;
   text-decoration: none;
@@ -32,6 +43,6 @@ a {
 }
 
 a:hover {
-  color: gray;
+  color: #665980;
   font-size: 17px;
 }

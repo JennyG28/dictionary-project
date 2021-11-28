@@ -1,31 +1,30 @@
 
 import './App.css';
 import Dictionary from "./Dictionary";
-import logo from "./words.png";
+import logo from "./girl-reading.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <header className="App-header" >
+        <br />
         <img src={logo} className="App-logo" alt="logo" />
-        Dictionary
+        <br />
+              <header className="App-header" >
+                Dictionary
       </header>
       <main>
         <Dictionary/>
         </main>
         <br />
+        <br />
         <footer>
       <div>
         <a
-          href="https://github.com/JennyG28?tab=repositories"
-         
-         
+          href="https://github.com/JennyG28?tab=repositories" target="_blank" rel="noreferrer"
           >Open-source code </a> {" "}
         <a
-          href="https://www.shecodes.io/students/275-j-e"
-          
-         
+          href="https://www.shecodes.io/students/275-j-e" target="_blank" rel="noreferrer"
           >by Jenny Gomez</a>
       </div>
       </footer>

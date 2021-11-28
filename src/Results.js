@@ -19,7 +19,7 @@ export default function Results(props){
   );
 })}
 </section>
-<br />
+
       {props.results.meanings.map(function (meaning, index) {
         return (
           <section key = {index}>

@@ -1,5 +1,5 @@
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 .Dictionary form {
@@ -7,16 +7,18 @@ body {
 }
 
 .Dictionary section {
-  background: #fdfdfd;
+  background: #eaeaea;
   padding: 15px;
   border-radius: 8px;
-  margin: 20px 0;
+  margin: 20px auto;
+  position: relative;
+  width: 540px;
 }
 
 .Dictionary input.field {
   height: 40px;
-  width: 400px;
-  float: right;
+  width: 470px;
+  float: center;
   padding: 6px 15px 6px 15px;
   border-radius: 4px;
   background-color: #f6f6f6;
@@ -24,7 +26,7 @@ body {
 }
 
 .Dictionary input.btn.btn-outline-light.mb-2 {
-  float: left;
+  float: right;
   padding: 6px 15px 6px 15px;
   width: 60px;
   background-color: #f6f6f6;
