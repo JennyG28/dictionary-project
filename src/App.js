@@ -13,11 +13,12 @@ export default function App() {
               <header className="App-header" >
                 Dictionary
       </header>
+      <br />
       <main>
         <Dictionary/>
         </main>
         <br />
-        <br />
+        
         <footer>
       <div>
         <a
@@ -28,7 +29,6 @@ export default function App() {
           >by Jenny Gomez</a>
       </div>
       </footer>
-
     </div>
     </div>
   );
